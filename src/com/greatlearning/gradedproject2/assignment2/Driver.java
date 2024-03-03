@@ -1,4 +1,4 @@
-package assignment2;
+package com.greatlearning.gradedproject2.assignment2;
 
 import java.util.Arrays;
 import java.util.List;
@@ -31,8 +31,10 @@ public class Driver {
 			}
 
 
-//			printing BST before Skew
-			System.out.println("printing BST before Skew ");
+//			printing BST
+			System.out.println(" \n\n                      Printing BST in 2D                       \n ");
+			System.out.println(" --------------------------------------------------------- \n\n");
+
 			TreePrinterUtil.print2D(root);
 
 			System.out.println(" \n\n --------------------------------------------------------- \n\n");
@@ -43,15 +45,19 @@ public class Driver {
 			Node skewed = skewTree.skewingTree();
 			
 			
-//			printing BST after Skew
-			System.out.println("printing BST after Skew ");
-			TreePrinterUtil.print2D(skewed);
-
-			System.out.print("\nInorder :");
+			System.out.println(" \n    Printing BST and Skewed BST (printStyle=Linear)                     \n\n ");
+			
+			
+			System.out.println(" --------------------------------------------------------- \n\n");
+		
+			System.out.print("\n    Inorder :");
 			TreeTraversal.inOrderTraversal(root);
 
-			System.out.print("\nInorder skewed:");
+			System.out.print("\n    Inorder Skewed :");
 			TreeTraversal.inOrderTraversal(skewed);
+			
+			System.out.println(" \n\n --------------------------------------------------------- \n\n");
+
 
 		} catch (Exception e) {
 			System.out.println("Error Occured in the Floor Factory Process -- " + e);

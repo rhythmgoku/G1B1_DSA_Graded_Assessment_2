@@ -1,4 +1,4 @@
-package assignment1;
+package com.greatlearning.gradedproject2.assignment1;
 
 import java.util.Scanner;
 

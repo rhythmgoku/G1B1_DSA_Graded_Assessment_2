@@ -1,4 +1,4 @@
-package assignment2;
+package com.greatlearning.gradedproject2.assignment2;
 
 import java.util.ArrayList;
 

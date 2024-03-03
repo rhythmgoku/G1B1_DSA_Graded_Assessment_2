@@ -1,4 +1,4 @@
-package assignment2;
+package com.greatlearning.gradedproject2.assignment2;
 
 public class TreeTraversal {
 
@@ -6,7 +6,7 @@ public class TreeTraversal {
 		
 		if (root != null) {
 			inOrderTraversal(root.left);
-			System.out.print(root.data + ",");
+			System.out.print(" "+root.data + ",");
 			inOrderTraversal(root.right);
 		}
 	}
